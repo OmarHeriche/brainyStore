@@ -10,7 +10,7 @@ const productSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-    default: "this product is the bust trust me :)",
+    default: "enter the description of this product",
   },
   price: {
     type: Number,

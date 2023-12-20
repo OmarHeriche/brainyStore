@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Dummy Product 1",
+    "image_link": "dummy_image_1.jpg",
+    "description": "This is a dummy product description.",
+    "price": 19.99,
+    "amount": 5,
+    "colors": "red",
+    "size": "M",
+    "likes": 8,
+    "category": "man"
+  },
+  {
+    "name": "Dummy Product 2",
+    "image_link": "dummy_image_2.jpg",
+    "description": "Another dummy product description.",
+    "price": 29.99,
+    "amount": 8,
+    "colors": "green",
+    "size": "S",
+    "likes": 12,
+    "category": "child"
+  },
+  {
+    "name": "Dummy Product 3",
+    "image_link": "dummy_image_3.jpg",
+    "description": "Description for dummy product 3.",
+    "price": 39.99,
+    "amount": 12,
+    "colors": "blue",
+    "size": "L",
+    "likes": 5,
+    "category": "woman"
+  },
+  {
+    "name": "Dummy Product 4",
+    "image_link": "dummy_image_4.jpg",
+    "description": "Description for dummy product 4.",
+    "price": 49.99,
+    "amount": 15,
+    "colors": "red",
+    "size": "XL",
+    "likes": 20,
+    "category": "all"
+  },
+  {
+    "name": "Dummy Product 5",
+    "image_link": "dummy_image_5.jpg",
+    "description": "Description for dummy product 5.",
+    "price": 59.99,
+    "amount": 18,
+    "colors": "green",
+    "size": "M",
+    "likes": 10,
+    "category": "man"
+  },
+  {
+    "name": "Dummy Product 6",
+    "image_link": "dummy_image_6.jpg",
+    "description": "Description for dummy product 6.",
+    "price": 29.99,
+    "amount": 10,
+    "colors": "blue",
+    "size": "S",
+    "likes": 15,
+    "category": "child"
+  },
+  {
+    "name": "Dummy Product 7",
+    "image_link": "dummy_image_7.jpg",
+    "description": "Description for dummy product 7.",
+    "price": 39.99,
+    "amount": 20,
+    "colors": "red",
+    "size": "L",
+    "likes": 8,
+    "category": "woman"
+  },
+  {
+    "name": "Dummy Product 8",
+    "image_link": "dummy_image_8.jpg",
+    "description": "Description for dummy product 8.",
+    "price": 49.99,
+    "amount": 12,
+    "colors": "green",
+    "size": "XL",
+    "likes": 12,
+    "category": "all"
+  },
+  {
+    "name": "Dummy Product 9",
+    "image_link": "dummy_image_9.jpg",
+    "description": "Description for dummy product 9.",
+    "price": 19.99,
+    "amount": 15,
+    "colors": "blue",
+    "size": "M",
+    "likes": 5,
+    "category": "man"
+  },
+  {
+    "name": "Dummy Product 10",
+    "image_link": "dummy_image_10.jpg",
+    "description": "Description for dummy product 10.",
+    "price": 29.99,
+    "amount": 8,
+    "colors": "red",
+    "size": "S",
+    "likes": 18,
+    "category": "child"
+  }
+]
