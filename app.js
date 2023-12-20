@@ -3,6 +3,7 @@ const express = require("express");
 const connectDB = require("./db/connect");
 const router=require('./routes/products');
 const notFound=require('./middleWears/not-found')
+const error_handler=require('./middleWears/handle_error')
 require("dotenv").config();
 //!         requiring section: end
 
@@ -12,6 +13,7 @@ const app = express();//!           MY SERVER.
 app.use(express.json());
 app.use('/api/v1/products',router);
 app.use(notFound)
+app.use(error_handler)
 //!         middlewares section: end
 app.get("/",(req,res)=>{
     res.send("hello world")
