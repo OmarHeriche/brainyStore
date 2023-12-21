@@ -175,21 +175,35 @@ header img {
 .hero .callAction {
   font-size: 10px;
   font-weight: bold;
+  margin-top: 0;
+  color: var(--secondary_color);
 }
-.hero .button{
-    width: fit-content;
-    height: fit-content;
-    background-color: var(--primary_color);
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    padding: 8px 16px;
-    border-radius: 36px;
+.hero .button {
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--primary_color);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 8px 16px;
+  border-radius: 36px;
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.hero .button i {
+  color: white;
 }
 /* ? end hero section  */
 /* ? start about section  */
 .about {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
 }
 .about .container {
   display: flex;
@@ -210,7 +224,10 @@ header img {
 /* ? end about section  */
 
 /* ?start propostions section  */
-
+.propositions{
+    height: 100vh;
+    padding-top: 30px;
+}
 .horizontal-scroll-section {
   overflow-x: auto;
   white-space: nowrap;
@@ -229,3 +246,4 @@ header img {
   object-fit: cover;
 }
 /* ?end propostions section  */
+
