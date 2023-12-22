@@ -121,8 +121,8 @@ header ul {
 header ul a {
   display: block;
   color: white;
-  padding: 16px 10px;
-  font-size: 14px;
+  padding: 24px 10px;
+  font-size: 21px;
   transition: var(--main-trans);
 }
 header li {
@@ -133,7 +133,7 @@ header ul a:hover {
   color: var(--primary_color);
 }
 header img {
-  height: 48px;
+  height: 72px;
 }
 /* ? end header  */
 /* ? start hero section  */
@@ -149,7 +149,7 @@ header img {
 }
 .hero h1 {
   color: var(--secondary_color);
-  font-size: 24px;
+  font-size: 36px;
   margin: 0;
 }
 .hero h1 span {
@@ -158,20 +158,20 @@ header img {
 .hero p {
   color: var(--secondary_color);
   font-weight: normal;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 23px;
+  margin-top: 15px;
 }
 .hero .lhedda {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
   padding: 0;
   margin: 0;
-  letter-spacing: 2px;
-  margin-bottom: -3px;
-  margin-left: 2px;
+  letter-spacing: 3px;
+  margin-bottom: -5px;
+  margin-left: 3px;
 }
 .hero img {
-  width: 286px;
+  width: 430px;
 }
 .hero .callAction {
   font-size: 10px;
@@ -193,6 +193,7 @@ header img {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+  scale: 1.5;
 }
 .hero .button i {
   color: white;
@@ -204,30 +205,30 @@ header img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 .about .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -10px;
+  margin-top: -15px;
 }
-.about p {
+.about .container p {
   color: var(--secondary_color);
   font-weight: normal;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 23px;
+  margin-top: 15px;
   text-align: center;
 }
 .about img {
-  width: 206px;
+  width: 309px;
 }
 /* ? end about section  */
 
 /* ?start propostions section  */
 .propositions {
   height: 100vh;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 .horizontal-scroll-section {
   overflow-x: auto;
@@ -236,14 +237,14 @@ header img {
 
 .scroll-container {
   display: inline-flex;
-  padding: 10px;
+  padding: 15px;
 }
 
 .scroll-container img {
-  border-radius: 25px;
-  margin-right: 10px;
-  width: 200px;
-  height: 150px;
+  border-radius: 38px;
+  margin-right: 15px;
+  width: 300px;
+  height: 225px;
   object-fit: cover;
 }
 /* ?end propostions section  */
@@ -292,6 +293,7 @@ footer .container{
     flex-direction: row;
     justify-content: space-evenly;
     margin: 2px 0;
+    font-size: 24px;
 }
 .social a {
     height: fit-content;
