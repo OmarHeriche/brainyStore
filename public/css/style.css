@@ -1,6 +1,7 @@
 /*todo start variables */
 :root {
   --primary_color: #9dda3a;
+  --secondary_white:#FFFFFF;
   --secondary_color: rgb(30, 30, 30);
   --black75: rgba(30, 30, 30, 75%);
   --black50: rgba(30, 30, 30, 50%);
@@ -224,9 +225,9 @@ header img {
 /* ? end about section  */
 
 /* ?start propostions section  */
-.propositions{
-    height: 100vh;
-    padding-top: 30px;
+.propositions {
+  height: 100vh;
+  padding-top: 30px;
 }
 .horizontal-scroll-section {
   overflow-x: auto;
@@ -247,3 +248,58 @@ header img {
 }
 /* ?end propostions section  */
 
+/* ?start footer section */
+footer {
+    background-color: var(--secondary_color);
+    height: fit-content;
+    padding: 20px 0;
+}
+footer .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer_col {
+  padding: 0 15px;
+}
+.footer_col h4 {
+  font-size: 18px;
+  color: var(--secondary_white);
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  /* !position: relative; */
+}
+.footer_col ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: var(--secondary_white);
+    transition: var(--main-trans);
+    display: block;
+    margin: 8px 0;
+}
+.footer_col ul li .active,
+.footer_col ul li a:hover {
+  color: var(--primary_color);
+  padding-left: 5px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2px 0;
+}
+.social a {
+    height: fit-content;
+    width: fit-content;
+    color: var(--secondary_white);
+    transition: var(--main-trans);
+}
+.social a:hover {
+  color: var(--primary_color);
+}
+/* ?end footer section */
