@@ -20,7 +20,7 @@ const getAllProducts = async (req, res) => {
       queryObject.price = { $lte: parseFloat(max_price) };
     }
     const products = await product.find(queryObject);
-    res.status(200).json({ products, products_amount: products.length });
+    res.status(200).json({ products});
   } catch (error) {
     res.status(500).json({ msj: error });
   }

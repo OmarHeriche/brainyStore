@@ -11,6 +11,7 @@ const app = express();//!           MY SERVER.
 
 //!         middlewares section: start
 app.use(express.json());
+app.use(express.static("./public"));
 app.use('/api/v1/products',router);
 app.use(notFound)
 app.use(error_handler)
