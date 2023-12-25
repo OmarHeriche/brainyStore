@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? font awesome mnna kyn icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--? renderin css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--? css styling file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ?goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:wght@100;200;400;700&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>brainyStore</title>
+  </head>
+  <body>
+    <!-- ? start header -->
+    <header>
+      <div class="container">
+        <a href="http://localhost:5000/" class="logo">
+          <img src="images/logo.png" alt="LOGO" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="http://localhost:5000/" class="active">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ? end header -->
+    <!-- ?start filter_search line -->
+    <div class="filter_search">
+      <div class="container">
+        <!-- todo start filter  -->
+        <div class="filter">
+          <a href="?category=all" class="active">All</a>
+          <a href="?category=man">Man</a>
+          <a href="?category=woman">Woman</a>
+          <a href="?category=chield">Chield</a>
+          <input type="text" placeholder="max price..." class="max_price" />
+        </div>
+        <!-- todo end filter  -->
+
+        <!-- todo start search bar -->
+        <div class="search_bar">
+          <input type="text" placeholder="start searching..." class="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- todo end search bar -->
+      </div>
+    </div>
+    <!-- ?end filter_search line -->
+
+    <!-- ?start single product section -->
+    <div class="single_product">
+      <div class="container">
+        <div class="img_section">
+          <img src="./images/single_product (1).jpg" alt="" />
+        </div>
+        <div class="info_section">
+          <ul>
+            <li><u>Matchy outfit :</u></li>
+            <li>price:<span>40$</span></li>
+          </ul>
+          <p>
+            <span style="font-weight: bold"
+              >product details Material composition Material:</span
+            ><br />Cotton and Polyester, The fabric of this dress is stretchy,
+            soft and warm. Comfortable to touch and wear. Care Instructions
+            Dear, please check our size chart to suit you before ordering. The
+            size measurements provided in the photos are Asian sizes, please
+            choose according to your body data
+          </p>
+          <div class="colors">
+            <div class="first" style="background-color: red"></div>
+            <div class="second" style="background-color: green"></div>
+            <div class="third" style="background-color: blue"></div>
+          </div>
+          <div class="sizes">
+            <div>M</div>
+            <div>S</div>
+            <div>L</div>
+            <div>XL</div>
+          </div>
+          <div class="to_add">
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="button">
+              <a class="callAction" href="">Add to cart</a>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ?start propositions section  -->
+      <hr class="my_separator">
+      <div class="propositions">
+        <section class="horizontal-scroll-section">
+          <div class="scroll-container">
+            <img src="images/propositions.jpg" alt="Image 1" />
+            <img src="images/propositions.jpg" alt="Image 1" />
+            <img src="images/propositions.jpg" alt="Image 1" />
+            <img src="images/propositions.jpg" alt="Image 1" />
+            <img src="images/propositions.jpg" alt="Image 1" />
+          </div>
+        </section>
+      </div>
+      <!-- ?end propositions section  -->
+    </div>
+    <!-- ?end single product section -->
+
+    <!-- ?start footer section  -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="footer_col">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Man</a></li>
+              <li><a href="#">Woman</a></li>
+              <li><a href="#">Child</a></li>
+            </ul>
+          </div>
+          <div class="footer_col">
+            <h4>Our sections</h4>
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+          <div class="footer_col">
+            <h4>New Offers</h4>
+            <ul>
+              <li><a href="#">Discount</a></li>
+              <li><a href="#">Black friday</a></li>
+              <li><a href="#">New Stock</a></li>
+            </ul>
+          </div>
+          <div class="footer_col">
+            <h4>Contact us</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-regular fa-envelope"></i> brainy@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-phone"></i> +213 45 62 45 20</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-house"></i> ESI,Oued Smar,Algiers</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- ?end footer section  -->
+  </body>
+</html>
